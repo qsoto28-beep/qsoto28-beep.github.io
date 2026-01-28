@@ -6,4 +6,15 @@ body {
 margin: 0px;
 font-family: sans-serif;
 }
+.gallery {
+  display: grid;                  /* Use grid layout */
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 10px;                      /* Space between images */
+}
+
+.gallery img {
+  width: 100%;                    /* Make images fill the column */
+  height: auto;                   /* Keep original aspect ratio */
+  display: block;                  /* Removes small gaps under images */
+}
 
