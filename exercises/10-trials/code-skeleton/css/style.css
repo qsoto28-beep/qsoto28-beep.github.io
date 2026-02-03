@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0px;
+font-family: sans-serif;
+}
+#green { 
+text-decoration: none;
+color: green;
+}
+#pink {
+    color:fuchsia ;
+}
+#red {
+    color: red;
+}
+#brown {
+    color: burlywood;
+}
+#blue {
+    color: blue;
+}
+#sky {
+    background-color: skyblue;
+}
+#yellow {
+    background-color: yellow;
+}
+#bold {
+    font-weight: bold;
+}
+#under {
+    text-decoration: underline;
+}
+#big {
+    font-size: 50px;
+}
+#mid {
+    text-align: center;
+}
