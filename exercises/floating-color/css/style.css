@@ -1,46 +1,105 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-margin: 0px;
-font-family: sans-serif;
+    margin: 0px;
+    font-family: sans-serif;
 }
 #mid {
-text-align: center;
+    text-align: center;
 }
 #color-1 {
-background-color: #fbf5f3;
-padding: 24px;
-margin: 0px;
+    background-color: #fbf5f3;
+    padding: 24px;
+    margin: 0px;
 }
 #color-2 {
-background-color: #8DAA9D;
-padding: 24px;
-margin: 0px;
+    background-color: #8DAA9D;
+    padding: 24px;
+    margin: 0px;
 }
 #color-3 {
-background-color: #522B47;
-color: azure;
-padding: 24px;
-margin: 0px;
+    background-color: #522B47;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
 }
 #color-4 {
-background-color: #7B0828;
-color: azure;
-padding: 24px;
-margin: 0px;
+    background-color: #7B0828;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
 }
 #color-5 {
-background-color: #0F0E0E;
-color: azure;
-padding: 24px;
-margin: 0px;
+    background-color: #0F0E0E;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
 }
 .color-palette {
-box-shadow: 6px 6px 12px #989898;
-text-align: center;
-margin: 24px; 
-padding: 24px; 
+    box-shadow: 6px 6px 12px #989898;
+    text-align: center;
+    margin: 24px; 
+    padding: 24px; 
 }
+
+#color-6 {
+    background-color: #23C9FF;
+    padding: 24px;
+    margin: 0px;
+}
+#color-7 {
+    background-color: #7CC6FE;
+    padding: 24px;
+    margin: 0px;
+}
+#color-8 {
+    background-color: #CCD5FF;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
+}
+#color-9 {
+    background-color: #E7BBE3;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
+}
+#color-10 {
+    background-color: #C884A6;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
+}
+
+#color-11 {
+    background-color: #6C698D;
+    padding: 24px;
+    margin: 0px;
+}
+#color-12 {
+    background-color: #D4D2D5;
+    padding: 24px;
+    margin: 0px;
+}
+#color-13 {
+    background-color: #BFAFA6;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
+}
+#color-14 {
+    background-color: #AA968A;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
+}
+#color-15 {
+    background-color: #6E6A6F;
+    color: azure;
+    padding: 24px;
+    margin: 0px;
+}
+
 
