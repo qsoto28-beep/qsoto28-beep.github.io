@@ -22,7 +22,7 @@ body {
 }
 
 #evening {
-    background-color: #2f5191;
+    background-color: #6592e6;
     margin: 20px;
     border-radius: 20px;
     padding: 20px;
@@ -41,7 +41,7 @@ body {
 }
 
 #evening ul {
-    background-color: #254888;
+    background-color: #416099;
     padding: 25px;
     border-radius: 15px;
 }
@@ -61,7 +61,7 @@ body {
 
 #afternoon .important {
     background-color: yellow;
-    padding: 2px 1px;
+    padding: 0.9px 0.9px;
 }
 
 #morning .button,
