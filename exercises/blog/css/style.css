@@ -21,23 +21,23 @@ body {
     font-style: italic;
     color: rgb(247, 247, 152);
     margin: 20px auto;
-    text-align:left;
+    text-align: left;
     text-indent: 18px;
 }
 
 h1 {
     font-size: 42px;
     margin: 10px;
-    color:rgb(247, 247, 152);
+    color: rgb(247, 247, 152);
     font-style: italic;
-    text-align:left;
+    text-align: left;
     text-indent: 1px;
 }
 
 .created {
-    color:rgb(247, 247, 152);
+    color: rgb(247, 247, 152);
     font-style: italic;
-    text-align:left;
+    text-align: left;
     text-indent: 20px;
 }
 
@@ -56,6 +56,6 @@ img {
     margin-bottom: 18px;
     width: 90%;
     margin: 30px;
-    color:rgb(247, 247, 152);
+    color: rgb(247, 247, 152);
     text-align: left;
 }
