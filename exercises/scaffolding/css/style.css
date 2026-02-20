@@ -7,3 +7,46 @@ body {
     font-family: sans-serif;
 }
 
+.header{
+  background:#ff4d00;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 40px;
+}
+
+/* Brand name */
+.brand{
+  font-size:24px;
+  font-weight:bold;
+}
+
+/* Navigation */
+.nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:40px;
+  font-size:18px;
+}
+
+/* Divider line */
+.divider{
+  height:6px;
+  background:black;
+}
+
+/* Main section */
+.main{
+  background:#d3d3d3;
+  height:500px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding-top:40px;
+}
+
+/* Title */
+.main h1{
+  font-size:40px;
+}
