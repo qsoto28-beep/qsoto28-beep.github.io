@@ -27,6 +27,7 @@ body {
 }
 
 #image-column {
+    width: 420px;
     flex: 1;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 #product-info-column {
-    width: 550px;
+    width: 450px;
 }
 
 #product-info-column h1 {
