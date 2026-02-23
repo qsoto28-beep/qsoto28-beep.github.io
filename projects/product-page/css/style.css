@@ -7,7 +7,6 @@ body {
     font-family: sans-serif;
 }
 
-
 #layout {
     display: flex;
     gap: 30px;
@@ -21,7 +20,7 @@ body {
     width: 100px;
 }
 
-#thumbnail-column  img{
+#thumbnail-column  img {
     width: 100px;
     border: 1px solid;
     cursor: pointer;
@@ -31,7 +30,7 @@ body {
     flex: 1;
 }
 
-#image-column img{
+#image-column img {
     width: 100%;
     max-width: 500px;
 }
@@ -40,7 +39,7 @@ body {
     width: 350px;
 }
 
-#product-info-column h1{
+#product-info-column h1 {
     font-size: 22px;
     margin-bottom: 15px;
 }
@@ -58,12 +57,12 @@ body {
     font-size: 14px;
 }
 
-.seller-info a{
+.seller-info a {
     color: blue;
     text-decoration: none;
 }
 
-.seller-info a:hover{
+.seller-info a:hover {
     text-decoration: underline;
 }
 
