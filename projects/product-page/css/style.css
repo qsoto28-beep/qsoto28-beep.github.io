@@ -25,6 +25,7 @@ body {
     width: 100px;
     border: 1px solid;
     cursor: pointer;
+    border-radius: 13px;
 }
 
 #image-column {
@@ -34,6 +35,7 @@ body {
 #image-column img {
     width: 100%;
     max-width: 770px;
+    border-radius: 13px;
 }
 
 #product-info-column {
