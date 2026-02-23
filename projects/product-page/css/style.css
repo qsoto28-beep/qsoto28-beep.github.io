@@ -31,7 +31,7 @@ body {
 }
 
 #image-column img {
-    width: 100%;
+    width: 500%;
     max-width: 500px;
 }
 
