@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(#606C38 40%,#283618);
+    background: linear-gradient(#606C38 40%,#283618);
 }
 
 .hero-content {
