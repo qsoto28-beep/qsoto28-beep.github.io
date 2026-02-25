@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(#1bb4b9, #178185);
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #d9d9d9;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(#ac1212 23%, #101280 73%);
+}
+
+.vs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.card {
+    align-items: center;
+}
+
+.card h3{
+    color: white;
+}
+
+.card img {
+    min-width: 300px;
+    width: 100px;
+    gap: 40px;
+}
+
+.vs-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #257eaa;
+    color: rgb(233, 235, 234);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.text h3, h4, p{
+    color: white;
+    text-align: center;
+}
+
+.text h1, h2{
+    color: rgb(0, 204, 255);
+    text-align: center;
+}
+
+.text h1{
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: italic;
+}
