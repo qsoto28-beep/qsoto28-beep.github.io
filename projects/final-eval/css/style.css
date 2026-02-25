@@ -61,12 +61,15 @@ body {
     border-radius: 4px;
 }
 
-.text h3, h4, p {
+.text h3, 
+h4, 
+p {
     color: white;
     text-align: center;
 }
 
-.text h1, h2 {
+.text h1, 
+h2 {
     color: rgb(0, 204, 255);
     text-align: center;
 }
