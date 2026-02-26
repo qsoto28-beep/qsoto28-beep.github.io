@@ -6,9 +6,9 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background: linear-gradient(
-    to left,
-    rgb(47, 119, 40) ,
-    rgb(185, 88, 22)
+        to left,
+        rgb(47, 119, 40) ,
+        rgb(185, 88, 22)
     );
 }
 
@@ -19,12 +19,11 @@ body {
 }
 
 .hero-image {
-    background:linear-gradient(rgb(175, 156, 46)10%, rgb(185, 88, 22)40%);
-}
-
+    background: linear-gradient(rgb(175, 156, 46)10%, rgb(185, 88, 22)40%);
+text-align: center;}
 
 .hero-text {
-    background:linear-gradient(rgb(134, 175, 20)10%, rgb(47, 119, 40)40%);
+    background: linear-gradient(rgb(134, 175, 20)10%, rgb(47, 119, 40)40%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,4 +59,3 @@ body {
     object-fit: cover;
     display: block;
 }
-
