@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <!DOCTYPE html>
+<head>
+<title>QSOTO ARCHIVE</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  background: radial-gradient(circle at top left, #ff2d55, transparent 40%),
+              radial-gradient(circle at bottom right, #00d4ff, transparent 40%),
+              #0f0f0f;
+}
+
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 90px;
+  margin: 0;
+  letter-spacing: -2px;
+}
+
+.hero p {
+  max-width: 500px;
+  opacity: 0.8;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 60px;
+}
+
+/* POST CARDS (fragmented feel) */
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.card h2 {
+  font-family: 'Space Grotesk';
+  margin-top: 0;
+}
+
+.tag {
+  font-size: 12px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+/* UNFINISHED CANVAS EFFECT */
+.card::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.05), transparent);
+  transform: rotate(25deg);
+  top: -50%;
+  left: -50%;
+}
+
+/* COLORED ACCENTS */
+.red { border-left: 4px solid #ff2d55; }
+.blue { border-left: 4px solid #00d4ff; }
+.green { border-left: 4px solid #00ff9d; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>QSOTO ARCHIVE</h1>
+  <p>Visual notes on music, culture, and experimental design. An evolving canvas of unfinished ideas and editorial fragments.</p>
+</section>
+
+<!-- GRID -->
+<section class="grid">
+
+  <div class="card red">
+    <div class="tag">ISSUE 01 — BEAUTY</div>
+    <h2>Emotional Beauty Study</h2>
+    <p>Description</p>
+  </div>
+
+  <div class="card blue">
+    <div class="tag">ISSUE 02 — MUSIC</div>
+    <h2>I SEE EVERYTHING</h2>
+    <p>Description</p>
+  </div>
+
+  <div class="card green">
+    <div class="tag">ISSUE 03 — MUSIC</div>
+    <h2>OBSESSION</h2>
+    <p>Description</p>
+  </div>
+
+  <div class="card blue">
+    <div class="tag">ISSUE 04 — DRACULA</div>
+    <h2>Editorial Redesign</h2>
+    <p>Description</p>
+  </div>
+
+  <div class="card red">
+    <div class="tag">ISSUE 05 — LIPGLOSS</div>
+    <h2>Editorial Redesign 2</h2>
+    <p>Description</p>
+  </div>
+
+  <div class="card green">
+    <div class="tag">ISSUE 06 — ARCHIVE</div>
+    <h2>Process Notes</h2>
+    <p>Description</p>
+  </div>
+
+</section>
+
+</body>
+</html>
